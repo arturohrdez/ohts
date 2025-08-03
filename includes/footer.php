@@ -18,11 +18,10 @@
                 <div class="col-lg-3 col-6 footer-links">
                     <h4>Nuestros Servicios</h4>
                     <ul>
-                        <li>Diagnóstico empresarial personalizado</li>
-                        <li>Planeación estratégica</li>
-                        <li>Diseño funcional y técnico personalizado</li>
-                        <li>Desarrollo de integraciones y extensiones</li>
-                        <li>Capacitación práctica por roles</li>
+                        <li>Análisis de Procesos</li>
+                        <li>Implementación SAP Business One</li>
+                        <li>Desarrollos para SAP Business One</li>
+                        <li>Capacitación para Administración SAP Business One</li>
                         <li>Diseño de Bases de Datos y Soluciones EDI</li>
                     </ul>
                 </div>
