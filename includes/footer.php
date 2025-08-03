@@ -3,7 +3,7 @@
             <div class="row gy-4">
                 <div class="col-lg-6 col-md-12 footer-about">
                     <a href="index.html" class="logo d-flex align-items-center">
-                        <span class="sitename">OH HAND Tech Solutions</span>
+                        <span class="sitename">ON HAND Tech Solutions</span>
                     </a>
                     <p>
                         Ofrecemos una gama completa de servicios profesionales SAP Business One, pensados para mejorar la eficiencia operativa de tu empresa. Con más de 15 años de experiencia en consultoría SAP en México, garantizamos un enfoque personalizado y resultados concretos.
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="container-fluid copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">OH HAND Tech Solutions</strong> <span>All Rights Reserved</span></p>
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">ON HAND Tech Solutions</strong> <span>All Rights Reserved</span></p>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
                 <!-- You can delete the links only if you've purchased the pro version. -->

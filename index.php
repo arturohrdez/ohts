@@ -63,7 +63,7 @@ include('includes/header.php');
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <h1>
-                OH HAND Tech Solutions. <br>
+                ON HAND Tech Solutions. <br>
                 Implementación y Consultoría de SAP Business One en México.<br>
             </h1>
         </div><!-- End Section Title -->
@@ -131,7 +131,7 @@ include('includes/header.php');
                 <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
                     <h3 class="text-warning">Transforma la gestión de tu empresa en México con SAP Business One</h3>
                     <p class="fst-italic mt-5 text-white">
-                        En el dinámico mercado mexicano, la eficiencia y el control son clave para el crecimiento. En OH HAND Tech Solutions, somos expertos en la implementación de SAP Business One, la solución integral de gestión empresarial diseñada para impulsar a las pequeñas y medianas empresas hacia el éxito. Olvídate de los procesos manuales y de la información fragmentada; con nosotros, obtendrás una visión unificada y en tiempo real de toda tu operación.
+                        En el dinámico mercado mexicano, la eficiencia y el control son clave para el crecimiento. En ON HAND Tech Solutions, somos expertos en la implementación de SAP Business One, la solución integral de gestión empresarial diseñada para impulsar a las pequeñas y medianas empresas hacia el éxito. Olvídate de los procesos manuales y de la información fragmentada; con nosotros, obtendrás una visión unificada y en tiempo real de toda tu operación.
                     </p>
                     <ul class="text-white">
                         <li><i class="bi bi-check2-all"></i> <span>Control Total de tu Negocio:.</span></li>
@@ -252,7 +252,7 @@ include('includes/header.php');
         <div class="container section-title" data-aos="fade-up">
             <h2>Servicios Especializados en SAP Business One</h2>
             <p>
-                En <b>OH HAND Tech Solution</b>, no solo implementamos <b>SAP Business One</b>: creamos soluciones inteligentes que responden a los retos reales de tu negocio.
+                En <b>ON HAND Tech Solutions</b>, no solo implementamos <b>SAP Business One</b>: creamos soluciones inteligentes que responden a los retos reales de tu negocio.
                 A través de una metodología comprobada y consultores con experiencia en diversos sectores, entregamos más que software: <b>entregamos resultados medibles</b>.
             </p>
         </div><!-- End Section Title -->
@@ -344,7 +344,7 @@ include('includes/header.php');
     <!-- Clients Section -->
     <section id="clients" class="clients section light-background">
         <div class="container section-title" data-aos="fade-up">
-            <h2>Empresas que confían en OH HAND Tech Solution</h2>
+            <h2>Empresas que confían en ON HAND Tech Solutions</h2>
             <p>
                 Cada empresa con la que trabajamos representa un nuevo reto y una oportunidad para generar valor real. Desde empresas manufactureras hasta distribuidores, retailers y servicios profesionales, hemos adaptado SAP Business One a distintos modelos de negocio.
             </p>
@@ -696,10 +696,10 @@ include('includes/header.php');
     <section id="contact" class="contact section light-background">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h3>Contáctanos | OH HAND Tech Solution</h3>
+            <h3>Contáctanos | ON HAND Tech Solutions</h3>
             <p>
                 ¿Buscas una consultoría confiable en SAP Business One en México? Estás en el lugar correcto.
-                En OH HAND Tech Solution, ayudamos a pequeñas y medianas empresas a implementar, optimizar y mantener SAP Business One de forma eficiente y segura.
+                En ON HAND Tech Solutions, ayudamos a pequeñas y medianas empresas a implementar, optimizar y mantener SAP Business One de forma eficiente y segura.
                 Ya sea que estés evaluando cambiar tu ERP, mejorar tu sistema actual o simplemente resolver dudas sobre SAP, estamos listos para escucharte.
             </p>
         </div><!-- End Section Title -->
