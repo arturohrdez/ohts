@@ -33,6 +33,11 @@ $dbname   = 'ohts';
 $username = 'root';
 $password = 'Movdx09hint21h32$.-';
 
+/* $host     = 'sql211.infinityfree.com';
+$dbname   = 'if0_39627634_ohts';
+$username = 'if0_39627634';
+$password = 'Movdx09h';*/
+
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

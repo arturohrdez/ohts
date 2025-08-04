@@ -51,7 +51,7 @@
                             <input type="email" class="form-control" name="email" placeholder="Correo electrónico" required="" maxlength="180" autocomplete="off">
                         </div>
                         <div class="col-md-12">
-                            <input type="text" class="form-control" name="asunto" placeholder="Asunto" required="" maxlength="180" autocomplete="off">
+                            <input type="text" class="form-control" name="subject" placeholder="Asunto" required="" maxlength="180" autocomplete="off">
                         </div>
                         <div class="col-md-12">
                             <textarea class="form-control" name="comentarios" rows="6" placeholder="comentarios" required="" autocomplete="off"></textarea>
