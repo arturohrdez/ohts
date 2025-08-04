@@ -10,9 +10,9 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="#hero" class="active">Home<br></a></li>
-                    <li><a href="#about">Nosotros</a></li>
-                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#hero" class="active" title="Home">Home<br></a></li>
+                    <li><a href="#about" title="Nosotros">Nosotros</a></li>
+                    <li><a href="#services" title="Servicios">Servicios</a></li>
                     <!-- <li><a href="#clients">Nuestros Clientes</a></li> -->
                     <!-- <li><a href="#products">Productos</a></li> -->
 
@@ -40,7 +40,7 @@
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <a class="btn-getstarted" href="#contact">Contactános</a>
+            <a class="btn-getstarted" href="#contact" title="Contáctanos">Contactános</a>
 
         </div>
     </header>
