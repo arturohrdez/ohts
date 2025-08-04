@@ -1,41 +1,88 @@
 <?php
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
+date_default_timezone_set("America/Mexico_City");
 
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    header('Location: ../');
+    exit;
+}
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
-  }
+if(!isset($_POST) || empty($_POST)){
+	header('Location: ../');
+	exit;
+}//end if
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
+// Seguridad: Función para limpiar y escapar entradas
+function limpiar($valor) {
+    return htmlspecialchars(strip_tags(trim($valor)), ENT_QUOTES, 'UTF-8');
+}
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
+//FUNCION PARA OBTENER IP REAL
+function getRealIP() {
+	if (!empty($_SERVER['HTTP_CLIENT_IP']))
+		return $_SERVER['HTTP_CLIENT_IP'];
+	if (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
+		return $_SERVER['HTTP_X_FORWARDED_FOR'];
+	return $_SERVER['REMOTE_ADDR'];
+}
 
-  echo $contact->send();
+
+// Conexión a la base de datos
+$host     = 'localhost';
+$dbname   = 'ohts';
+$username = 'root';
+$password = 'Movdx09hint21h32$.-';
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    error_log("DB Error: " . $e->getMessage());
+    http_response_code(500);
+    header('Content-Type: application/json; charset=UTF-8');
+    echo json_encode(['estatus' => false, 'error' => 'Error en la conexión de base de datos']);
+    exit;
+}
+
+// Validar y limpiar datos
+$campos = [
+  'name'       => limpiar($_POST['nombre'] ?? ''),
+  'email'      => filter_var($_POST['email'] ?? '', FILTER_VALIDATE_EMAIL),
+  'subject'    => limpiar($_POST['subject'] ?? ''),
+  'comments'   => limpiar($_POST['comentarios'] ?? ''),
+  'ip'         => getRealIP(),
+  'browser'    => $_SERVER['HTTP_USER_AGENT'] ?? 'N/A',
+  'created_at' => date("Y-m-d H:i:s")
+];
+
+// Validar email
+if (!$campos['email'] || preg_match("/[\r\n]/", $campos['email'])) {
+    header('Content-Type: application/json; charset=UTF-8');
+    echo json_encode(['estatus' => false, 'error' => 'Correo inválido']);
+    exit;
+}
+
+// Guardar en la base de datos
+try {
+    $stmt = $pdo->prepare("INSERT INTO contacts (name, email, subject, comments, ip, browser, created_at) VALUES (:name, :email, :subject, :comments, :ip, :browser, :created_at)");
+    $stmt->execute([
+        ':name'       => $campos['name'],
+        ':email'      => $campos['email'],
+        ':subject'    => $campos['subject'],
+        ':comments'   => $campos['comments'],
+        ':ip'         => $campos['ip'],
+        ':browser'    => $campos['browser'],
+        ':created_at' => $campos['created_at']
+    ]);
+} catch (PDOException $e) {
+    error_log("DB Insert Error: " . $e->getMessage());
+    header('Content-Type: application/json; charset=UTF-8');
+    echo  json_encode(['estatus' => false, 'error' => 'Error al guardar en base de datos']);
+    exit;
+}
+
+
+header('Content-Type: application/json; charset: UTF-8');
+echo json_encode(["estatus" => true]);
+exit;
 ?>

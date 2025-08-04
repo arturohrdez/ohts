@@ -9,9 +9,9 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <title>
-            <?php echo isset($header_title) ? $header_title : "Websis";?>
+            <?php echo isset($header_title) ? $header_title : "";?>
         </title>
-        <meta name="description" content="<?php echo isset($header_description) ? $header_description :  "Mi sitio web";?>">
+        <meta name="description" content="<?php echo isset($header_description) ? $header_description :  "";?>">
         <meta name="robots" content="index,follow">
     	<meta name="robots" content="noodp,noydir">
         <meta name="keywords" content="">
@@ -22,9 +22,19 @@
         <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
         <meta name="theme-color" content="#00252D">
 
+
+        <!-- SEO Open Graph -->
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="<?php echo $header_title; ?>" />
+        <meta property="og:description" content="<?php echo $header_description ?>" />
+        <meta property="og:url" content="<?php echo $base_url?>" />
+        <meta property="og:image" content="<?php echo $base_url?>assets/img/logo.png"/>
+        <meta property="og:logo" content="<?php echo $base_url?>assets/img/logo.png" />
+        <meta property="og:type" content="website" />
+
         <!-- Rutas -->
-        <!-- <base href="<?php //echo $base_url?>">
-        <link rel="canonical" href="<?php //echo $base_url;?>">
+        <base href="<?php echo $base_url;?>">
+        <link rel="canonical" href="<?php echo $base_url;?>">
 
         <!-- Favicons -->
         <link href="./assets/img/favicon.png" rel="icon">
@@ -44,4 +54,14 @@
 
         <!-- Main CSS File -->
         <link href="./assets/css/main.css" rel="stylesheet">
+
+        <script type="text/javascript">
+            function hideEmailAddress(email,domain){
+                var asciimath        = Math.pow(2,6);
+                var decode_asciimath = String.fromCharCode(asciimath);
+                var decode_email     = email + String.fromCharCode(asciimath) + domain;
+
+                return "<a href=" + "mai" + "lto" + ":" + decode_email + " title="+email + decode_asciimath + domain+">" + email + decode_asciimath + domain + "</a>";
+            }
+        </script>
     </head>

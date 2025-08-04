@@ -197,6 +197,14 @@ Sliders caption text
 
 /* PHP Email Form Messages
 ------------------------------*/
+.php-email-form .error{
+  color: #df1529;
+  text-align: left;
+  font-weight: 600;
+  display: block;
+}
+
+
 .php-email-form .error-message {
   display: none;
   background: #df1529;

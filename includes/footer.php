@@ -31,8 +31,8 @@
                         <li><a href="#hero">Home</a></li>
                         <li><a href="#about">Nosotros</a></li>
                         <li><a href="#services">Servicios</a></li>
-                        <li><a href="#clients">Nuestros Clientes</a></li>
-                        <li><a href="#products">Productos</a></li>
+                        <!-- <li><a href="#clients">Nuestros Clientes</a></li> -->
+                        <!-- <li><a href="#products">Productos</a></li> -->
                         <li><a href="#contact">Contáctanos</a></li>
                     </ul>
                 </div>
@@ -51,7 +51,6 @@
     <div id="preloader"></div>
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
