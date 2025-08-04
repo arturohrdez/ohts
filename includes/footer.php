@@ -39,13 +39,9 @@
             </div>
         </div>
         <div class="container-fluid copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">ON HAND Tech Solutions</strong> <span>All Rights Reserved</span></p>
+            <p><strong class="px-1 sitename">ON HAND Tech Solutions</strong> <span>All Rights Reserved</span></p>
             <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you've purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                <!-- Developer by <b>Websis | Tu aliado en sistemas.</b> -->
+                <a href="https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/" target="_blank">&copy; 2025 OnePage Free Template</a> | Customized by <b>Websis | Tu aliado en sistemas.</b>
             </div>
         </div>
     </footer>

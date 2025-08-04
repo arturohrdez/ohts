@@ -13,8 +13,8 @@
                     <li><a href="#hero" class="active">Home<br></a></li>
                     <li><a href="#about">Nosotros</a></li>
                     <li><a href="#services">Servicios</a></li>
-                    <li><a href="#clients">Nuestros Clientes</a></li>
-                    <li><a href="#products">Productos</a></li>
+                    <!-- <li><a href="#clients">Nuestros Clientes</a></li> -->
+                    <!-- <li><a href="#products">Productos</a></li> -->
 
                     <!-- <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#team">Team</a></li> -->

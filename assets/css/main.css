@@ -1224,13 +1224,16 @@ section,
 
 .services .service-item .icon {
   margin: 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: ease-in-out 0.3s;
+  /*transition: ease-in-out 0.3s;*/
   position: relative;
+  border-radius: 100px;
+  background-color: var(--accent-color);
+  color: var(--background-color);
 }
 
 .services .service-item .icon i {
@@ -1239,16 +1242,6 @@ section,
   position: relative;
 }
 
-.services .service-item .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.services .service-item .icon svg path {
-  transition: 0.5s;
-  fill: color-mix(in srgb, var(--default-color), transparent 95%);
-}
 
 .services .service-item h3 {
   font-weight: 700;
@@ -1265,6 +1258,8 @@ section,
 .services .service-item:hover {
   box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .services .service-item.item-cyan i {
   color: #0dcaf0;
