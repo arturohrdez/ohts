@@ -29,7 +29,19 @@
             <div class="carousel-item">
                 <picture>
                     <source srcset="./assets/img/sliders/slider3-mobile.webp" media="(max-width: 767.98px)">
-                    <img src="./assets/img/sliders/slider3.webp" class="d-block w-100" alt="Soporte Especializado">
+                    <img src="./assets/img/sliders/slider3.webp" class="d-block w-100" alt="Tecnología Business Intelligence">
+                </picture>
+                <div class="carousel-caption d-flex justify-content-center align-items-center h-25">
+                    <div>
+                        <h5 class="caption-title">Tecnología Business Intelligence</h5>
+                        <p class="caption-subtitle">Toma decisiones estratégicas con un eficiente análisis de datos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source srcset="./assets/img/sliders/slider4-mobile.webp" media="(max-width: 767.98px)">
+                    <img src="./assets/img/sliders/slider4.webp" class="d-block w-100" alt="Soporte Especializado">
                 </picture>
                 <div class="carousel-caption d-flex justify-content-center align-items-center h-25">
                     <div>

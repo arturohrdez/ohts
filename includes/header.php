@@ -4,7 +4,7 @@
 
             <a href="<?php echo $base_url; ?>" class="logo d-flex align-items-center me-auto" title="ONHAND Tech Solutions">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets/img/logo.png" alt="">
+                <img src="assets/img/onhand_logo.png" alt="ONHAND Tech Solutiosn" class="img-fluid">
                 <!-- <h1 class="sitename">OnePage</h1> -->
             </a>
 
