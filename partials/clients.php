@@ -1,6 +1,6 @@
 <section id="clients" class="clients section light-background">
         <div class="container section-title" data-aos="fade-up">
-            <h2>Empresas que confían en ON HAND Tech Solutions</h2>
+            <h2>Empresas que confían en ONHAND Tech Solutions</h2>
             <p>
                 Cada empresa con la que trabajamos representa un nuevo reto y una oportunidad para generar valor real. Desde empresas manufactureras hasta distribuidores, retailers y servicios profesionales, hemos adaptado SAP Business One a distintos modelos de negocio.
             </p>

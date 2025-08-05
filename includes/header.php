@@ -2,7 +2,7 @@
     <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-            <a href="<?php echo $base_url; ?>" class="logo d-flex align-items-center me-auto" title="ON HAND Tech Solutions">
+            <a href="<?php echo $base_url; ?>" class="logo d-flex align-items-center me-auto" title="ONHAND Tech Solutions">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <img src="assets/img/logo.png" alt="">
                 <!-- <h1 class="sitename">OnePage</h1> -->

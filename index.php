@@ -15,7 +15,7 @@ include('includes/microdata.php')
     <!-- /About Section -->
     
     <!-- Stats Section -->
-    <?php include_once('partials/stats.php');?>
+    <?php //include_once('partials/stats.php');?>
     <!-- /Stats Section -->
     
     <!-- About Alt Section -->

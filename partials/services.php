@@ -3,7 +3,7 @@
     <div class="container section-title" data-aos="fade-up">
         <h2>Servicios Especializados en SAP Business One</h2>
         <p>
-            En <b>ON HAND Tech Solutions</b>, no solo implementamos <b>SAP Business One</b>: creamos soluciones inteligentes que responden a los retos reales de tu negocio.
+            En <b>ONHAND Tech Solutions</b>, no solo implementamos <b>SAP Business One</b>: creamos soluciones inteligentes que responden a los retos reales de tu negocio.
             A través de una metodología comprobada y consultores con experiencia en diversos sectores, entregamos más que software: <b>entregamos resultados medibles</b>.
         </p>
     </div><!-- End Section Title -->
@@ -43,14 +43,14 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="service-item position-relative">
                     <div class="icon">
-                        <i class="bi bi-code-square"></i>
+                        <i class="bi bi-braces"></i>
                     </div>
                     <h3>Desarrollo y extensiones</h3>
-                    <p>Conectamos SAP Business One con otros sistemas internos o externos (CRM, tiendas en línea, plataformas contables, etc.). También desarrollamos AddOns si tu operación lo requiere.</p>
+                    <p>Conectamos SAP Business One con otros sistemas internos o externos (CRM, tiendas en línea, plataformas contables, puntos de venta, bancos, etc.). También desarrollamos AddOns si tu operación lo requiere.</p>
 
                 </div>
             </div><!-- End Service Item -->
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="service-item position-relative">
                     <div class="icon">
                         <i class="bi bi-people-fill"></i>
@@ -59,7 +59,7 @@
                     <p>Formamos a tus usuarios finales y administradores del sistema según sus funciones. Lo hacemos de forma práctica, con ejemplos reales y documentación clara.</p>
                 </div>
             </div><!-- End Service Item -->
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                 <div class="service-item position-relative">
                     <div class="icon">
                         <i class="bi bi-database"></i>
@@ -68,7 +68,18 @@
                     <p>Podemos modelar soluciones a tu medida tanto en bases de datos como en intercambio electrónico de información.</p>
 
                 </div>
-            </div><!-- End Service Item -->
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+                <div class="service-item position-relative">
+                    <div class="icon">
+                        <i class="bi bi-code-square"></i>
+                    </div>
+                    <h3>Desarrollo WEB</h3>
+                    <p>Diseño de paginas web optimizados y a la medida para hacer crecer tu negocio, así también poder integrarse con SAP Business One.</p>
+
+                </div>
+            </div>
+            <!-- End Service Item -->
         </div>
     </div>
 </section>

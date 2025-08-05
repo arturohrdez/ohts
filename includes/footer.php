@@ -3,10 +3,10 @@
             <div class="row gy-4">
                 <div class="col-lg-6 col-md-12 footer-about">
                     <a href="index.html" class="logo d-flex align-items-center">
-                        <span class="sitename">ON HAND Tech Solutions</span>
+                        <span class="sitename">ONHAND Tech Solutions</span>
                     </a>
                     <p>
-                        Ofrecemos una gama completa de servicios profesionales SAP Business One, pensados para mejorar la eficiencia operativa de tu empresa. Con más de 15 años de experiencia en consultoría SAP en México, garantizamos un enfoque personalizado y resultados concretos.
+                        Ofrecemos una gama completa de servicios profesionales SAP Business One y nuevas tecnologías, pensados para mejorar la eficiencia operativa de tu empresa. Con más de 15 años de experiencia en consultoría SAP en México, garantizamos un enfoque personalizado y resultados concretos.
                     </p>
                     <!-- <div class="social-links d-flex mt-4">
                         <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="container-fluid copyright text-center mt-4">
-            <p><strong class="px-1 sitename">ON HAND Tech Solutions</strong> <span>All Rights Reserved</span></p>
+            <p><strong class="px-1 sitename">ONHAND Tech Solutions</strong> <span>All Rights Reserved</span></p>
             <div class="credits">
                 <a href="https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/" target="_blank">&copy; 2025 OnePage Free Template</a> | Customized by <b>Websis | Tu aliado en sistemas.</b>
             </div>

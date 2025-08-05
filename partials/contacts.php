@@ -1,10 +1,10 @@
 <section id="contact" class="contact section light-background">
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h3>Contáctanos | ON HAND Tech Solutions</h3>
+        <h3>Contáctanos | ONHAND Tech Solutions</h3>
         <p>
             ¿Buscas una consultoría confiable en SAP Business One en México? Estás en el lugar correcto.
-            En ON HAND Tech Solutions, ayudamos a pequeñas y medianas empresas a implementar, optimizar y mantener SAP Business One de forma eficiente y segura.
+            En ONHAND Tech Solutions, ayudamos a pequeñas y medianas empresas a implementar, optimizar y mantener SAP Business One de forma eficiente y segura.
             Ya sea que estés evaluando cambiar tu ERP, mejorar tu sistema actual o simplemente resolver dudas sobre SAP, estamos listos para escucharte.
         </p>
     </div><!-- End Section Title -->
@@ -14,21 +14,22 @@
         </div>
         <!-- End Google Maps -->
         <div class="row gy-4">
-            <div class="col-lg-4">
+            <div class="col-lg-12">
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                     <i class="bi bi-geo-alt flex-shrink-0"></i>
                     <div>
                         <h3>Dirección</h3>
                         <p>Calz. Legaria 549 Col. 10 de Abril, Piso 4, Del. Miguel Hidalgo, 11250 Ciudad de México, CDMX</p>
                     </div>
-                </div><!-- End Info Item -->
-                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                </div>
+                <!-- End Info Item -->
+                <!-- <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                     <i class="bi bi-telephone flex-shrink-0"></i>
                     <div>
                         <h3>Teléfono</h3>
                         <p>+1 5589 55488 55</p>
                     </div>
-                </div><!-- End Info Item -->
+                </div>
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
                     <i class="bi bi-envelope flex-shrink-0"></i>
                     <div>
@@ -39,9 +40,10 @@
                             </script>
                         </p>
                     </div>
-                </div><!-- End Info Item -->
+                </div> -->
+                <!-- End Info Item -->
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-12">
                 <form id="formContact" action="forms/contact.php" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                     <div class="row gy-4">
                         <div class="col-md-6">

@@ -2,7 +2,7 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h1>
-            ON HAND Tech Solutions. <br>
+            ONHAND Tech Solutions. <br>
             Implementación y Consultoría de SAP Business One en México.<br>
         </h1>
     </div><!-- End Section Title -->
@@ -19,6 +19,7 @@
                     <li><i class="bi bi-check2-circle"></i> <span>Soluciones a la medida de tu empresa.</span></li>
                     <li><i class="bi bi-check2-circle"></i> <span>Implementación ágil y sin complicaciones.</span></li>
                     <li><i class="bi bi-check2-circle"></i> <span>Consultores con experiencia en múltiples industrias.</span></li>
+                    <li><i class="bi bi-check2-circle"></i> <span>Más de 50 proyectos exitosos.</span></li>
                 </ul>
             </div>
             <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
