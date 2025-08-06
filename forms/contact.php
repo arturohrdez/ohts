@@ -6,11 +6,39 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
-if(!isset($_POST) || empty($_POST)){
-	header('Location: ../');
-	exit;
-}//end if
 
+if(isset($_POST["g-recaptcha-response_contact"]) && !empty($_POST["g-recaptcha-response_contact"])){
+	// clave secreta recaptcha
+	#-- Envia datos para validacíón de recaptcha de google
+	#-- Devuelve en la posicion $data["success"] = true
+	$secret = "6Ld9I5wrAAAAAJoX99IyzDPSwk_BXAWJBvhQbl22";
+	$url    = 'https://www.google.com/recaptcha/api/siteverify';
+	$ch     = curl_init($url);
+	$options = array(
+		CURLOPT_RETURNTRANSFER => true,
+		CURLOPT_HTTPHEADER => array('application/x-www-form-urlencoded'),
+		CURLOPT_HTTPHEADER => array('accept: application/json'),
+		CURLOPT_SSL_VERIFYPEER => false,
+		CURLOPT_POST => 1,
+		CURLOPT_POSTFIELDS => "secret=".$secret."&response=".$_POST["g-recaptcha-response_contact"]."&remoteip=".$_SERVER["REMOTE_ADDR"]
+	);
+	curl_setopt_array( $ch, $options );
+	$response = curl_exec($ch); // Getting jSON result string
+	curl_close($ch);
+	$data = json_decode($response, true);
+
+	$status_captcha = $data["success"];
+	$score_captcha  = $data["score"];
+
+	if($status_captcha == false && $score_captcha <= 0.6 ){
+        header('Content-Type: application/json; charset=UTF-8');
+        echo json_encode(['estatus' => false, 'error' => 'Captcha inválido']);
+        exit;
+	}
+}else{
+	header('Location: index.php');
+	die;
+}//end if
 
 // Seguridad: Función para limpiar y escapar entradas
 function limpiar($valor) {

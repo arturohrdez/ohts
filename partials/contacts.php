@@ -59,6 +59,7 @@
                             <textarea class="form-control" name="comentarios" rows="6" placeholder="comentarios" required="" autocomplete="off"></textarea>
                         </div>
                         <div class="col-md-12 text-center">
+                            <input type="hidden" id="g-recaptcha-response_contact" name="g-recaptcha-response_contact">
                             <div class="loading">Loading</div>
                             <div class="error-message fadeout"></div>
                             <div class="sent-message fadeout">Tu información ha sido enviada, nos comunicaremos contigo a la brevedad posible. Gracias!</div>
@@ -71,6 +72,19 @@
     </div>
 </section>
 
+<!-- Recaptcha Google V3 -->
+<script src="https://www.google.com/recaptcha/api.js?render=6Ld9I5wrAAAAAAfvbxa2Kp8yIGXPIyDcOdiLWuUS"></script>
+<script>
+    function recaptchaGenerateContact(site_key){
+        grecaptcha.execute(site_key, {action: "formContact"}).then(function(token) {
+            document.getElementById("g-recaptcha-response_contact").value=token;
+        });
+    }//end function
+
+    grecaptcha.ready(function(e) {
+        recaptchaGenerateContact("6Ld9I5wrAAAAAAfvbxa2Kp8yIGXPIyDcOdiLWuUS");
+    });
+</script>
 <!-- Validate Js -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.14.0/dist/jquery.validate.min.js"></script>
@@ -110,6 +124,8 @@
                             $(".error-message").show(); ;
                             $(".error-message").html(data.error);
                         }//end if
+
+                        recaptchaGenerateContact("6Ld9I5wrAAAAAAfvbxa2Kp8yIGXPIyDcOdiLWuUS");//reload recaptcha
 
                         setTimeout(function(){
                             $(".fadeout").fadeOut(1000);
