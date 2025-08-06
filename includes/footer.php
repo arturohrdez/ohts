@@ -28,12 +28,12 @@
                 <div class="col-lg-3 col-6 footer-links">
                     <h4>Menú</h4>
                     <ul>
-                        <li><a href="#hero" title="Home">Home</a></li>
-                        <li><a href="#about" title="Nosotros">Nosotros</a></li>
-                        <li><a href="#services" title="Servicios">Servicios</a></li>
+                        <li><a href="#home" title="Home">Home</a></li>
+                        <li><a href="#nosotros" title="Nosotros">Nosotros</a></li>
+                        <li><a href="#servicios" title="Servicios">Servicios</a></li>
                         <!-- <li><a href="#clients">Nuestros Clientes</a></li> -->
                         <!-- <li><a href="#products">Productos</a></li> -->
-                        <li><a href="#contact" title="Contáctanos">Contáctanos</a></li>
+                        <li><a href="#contacto" title="Contáctanos">Contáctanos</a></li>
                     </ul>
                 </div>
             </div>
