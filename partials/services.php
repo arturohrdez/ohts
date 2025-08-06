@@ -1,4 +1,4 @@
-<section id="services" class="services section light-background">
+<section id="servicios" class="services section light-background">
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Servicios Especializados en SAP Business One</h2>

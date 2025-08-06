@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /ohts/
+
+# Si el archivo o directorio existe, no reescribir la URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Elimina .php
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+#Redirecciona index.php a raíz
+RewriteRule ^index\.php$ /ohts/ [R=301,L]
+

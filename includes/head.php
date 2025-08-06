@@ -34,7 +34,7 @@
 
         <!-- Rutas -->
         <base href="<?php echo $base_url;?>">
-        <link rel="canonical" href="<?php echo $base_url;?>">
+        <link rel="canonical" href="<?php echo $canonical_url;?>">
 
         <!-- Favicons -->
         <link href="./assets/img/favicon.png" rel="icon">

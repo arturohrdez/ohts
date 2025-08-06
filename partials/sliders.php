@@ -1,4 +1,4 @@
-<section id="hero" class="p-0">
+<section id="home" class="p-0">
     <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">

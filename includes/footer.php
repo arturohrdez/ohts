@@ -9,7 +9,7 @@
                         Ofrecemos una gama completa de servicios profesionales SAP Business One y nuevas tecnologías, pensados para mejorar la eficiencia operativa de tu empresa. Con más de 15 años de experiencia en consultoría SAP en México, garantizamos un enfoque personalizado y resultados concretos.
                     </p>
                     <!-- <div class="social-links d-flex mt-4">
-                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href="">Aviso de Privacidad</a>
                         <a href=""><i class="bi bi-facebook"></i></a>
                         <a href=""><i class="bi bi-instagram"></i></a>
                         <a href=""><i class="bi bi-linkedin"></i></a>
@@ -39,9 +39,11 @@
             </div>
         </div>
         <div class="container-fluid copyright text-center mt-4">
-            <p><strong class="px-1 sitename">ONHAND Tech Solutions</strong> <span>All Rights Reserved</span></p>
+            <p>
+                <strong class="px-1 sitename">ONHAND Tech Solutions</strong> <span>&copy; All Rights Reserved</span>
+            </p>
             <div class="credits">
-                <a href="https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/" target="_blank">&copy; 2025 OnePage Free Template</a> | Customized by <b>Websis | Tu aliado en sistemas.</b>
+                <a href="aviso-de-privacidad">Aviso de privacidad</a> | <a href="https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/" target="_blank">&copy; 2025 OnePage Free Template</a> | Customized by <b>Websis | Tu aliado en sistemas.</b>
             </div>
         </div>
     </footer>

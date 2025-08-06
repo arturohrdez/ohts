@@ -1,4 +1,4 @@
-<section id="contact" class="contact section light-background">
+<section id="contacto" class="contact section light-background">
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h3>Contáctanos | ONHAND Tech Solutions</h3>
